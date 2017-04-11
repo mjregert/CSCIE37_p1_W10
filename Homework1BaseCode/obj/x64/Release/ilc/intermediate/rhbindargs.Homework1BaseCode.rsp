@@ -1,0 +1,16 @@
+/osver:6.2
+/appcontainer
+/runtime:mrt100_app
+/eh:clr
+/pdb
+"/nativeLink:C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.compiler\1.6.1\tools\x64\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\obj\x64\Release\ilc\intermediate\MDIL\Homework1BaseCode.mdilexe"
+"/i:C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\obj\x64\Release\ilc\intermediate\MDIL"
+"/out:C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\obj\x64\Release\ilc\intermediate\Native\Homework1BaseCode.exe"
+"/pdbAltPath:C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc"
+"/res:C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\obj\x64\Release\ilc\intermediate\Native.res"
+"/i:C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.6.0\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"

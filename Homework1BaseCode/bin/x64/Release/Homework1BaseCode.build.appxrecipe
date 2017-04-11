@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-S2GGBI7</Machine>
+    <WindowsUser>Michael Regert</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>b7498436-596d-4bf0-90ad-072e56cc4a76</PackageIdentityName>
+    <PackageIdentityPublisher>CN=kaseyc</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Homework1BaseCode.dll">
+      <PackagePath>Homework1BaseCode.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Homework1BaseCode.exe">
+      <PackagePath>Homework1BaseCode.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\Homework1BaseCode.pdb">
+      <PackagePath>Homework1BaseCode.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael Regert\Documents\Visual Studio 2017\Projects\Harvard\Homework1BaseCode\Homework1BaseCode\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.6.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.6.appx">
+      <Name>Microsoft.NET.Native.Framework.1.6</Name>
+      <Version>1.6.24903.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.6, MinVersion = 1.6.24903.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.6.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.6.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.6.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.6</Name>
+      <Version>1.6.24903.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.6, MinVersion = 1.6.24903.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.6.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.6.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.6</Name>
+      <Version>1.6.24903.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.6, MinVersion = 1.6.24903.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.6.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.6.appx">
+      <Name>Microsoft.NET.Native.Runtime.1.6</Name>
+      <Version>1.6.24903.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.6, MinVersion = 1.6.24903.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Michael Regert\.nuget\packages\microsoft.net.native.compiler\1.6.1\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.6.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
